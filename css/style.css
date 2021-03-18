@@ -136,7 +136,7 @@ a:hover
 
 
 .slided{
-   	padding-top:20%;
+   	margin-top:20%;
 	display:flex;
 	justify-content: center;
 	
@@ -266,7 +266,7 @@ a:hover
 .featured
 {
        width:100%;
-       height:1000px;
+       height:1200px;
        background-color:white;
 }
 .heading1
@@ -287,7 +287,7 @@ a:hover
 {
 	color:#4B4B4B;
 	font-size:16px;
-	font-family: 'Mulish', sans-serif;
+	font-family: 'Muli', sans-serif;
 }
 .wholebox a
 {
@@ -364,7 +364,7 @@ a:hover
 
 .inside label{
     	padding-right: 5px;
-	font-family: 'Mulish', sans-serif;
+	font-family: 'Muli', sans-serif;
   }
 
 .cards{
@@ -379,9 +379,355 @@ a:hover
      	font-family: 'Montserrat', sans-serif;
     	color:white;
     	background-color: #FE8369;
-    	margin-left:32%;
+    	margin-left:31%;
     	margin-top: 40px;
 	border: 1px;
 	box-shadow: 0px 20px 20px #50302028;
 	justify-content: center;
+}
+
+.benifits
+{
+	width:100%;
+	height:1021px;
+	background-image: url(../images2/curves-bg.png); 
+	background-color:#F0E3D0;
+}
+.heading4:before {
+    background-color: #FE8369;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    margin-left: -50%;
+}
+
+.heading4{
+    color:#4B4B4B;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    font-size:40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:900;
+    text-align:center;
+    padding-top:5%;
+}
+
+.lefts
+{
+	height:470px;
+	width:30%;
+	padding-top:5%;	
+	float:left;
+	margin-left:15%;
+}
+.lefts h2
+{
+	font-size:40px;
+	color:#4B4B4B;
+	font-family: 'Oswald', sans-serif;
+	font-weight:bold;
+}
+.lefts p
+{
+	font-family: 'Muli', sans-serif;
+	color:#4B4B4B;
+	font-size:20px;
+}
+.lbutton
+{
+	height:40px;
+    	width: 140px;
+     	font-family: 'Montserrat', sans-serif;
+    	color:white;
+    	background-color: #FE8369;
+	border: 1px;
+	box-shadow: 0px 20px 20px #50302028;
+
+}
+.rights
+{
+	padding-top:5%;
+	width:50%;
+	float:right;
+	position:relative;
+}
+.rrow
+{
+	display:flex;
+	padding:10px;
+}
+.chart
+{
+	margin:10px;
+	max-height:300px;
+	width:28%;
+	background-color:white;
+	padding:20px;
+	box-shadow: 0px 5px 20px #F0E3D0;
+	vertical-align:middle;
+}
+.chart label
+{
+	font-size:24px;
+	font-family: 'Oswald', sans-serif;
+	font: normal normal medium 25px Oswald;
+	letter-spacing: 0.72px;
+	font-weight:bold;
+}
+.chart p
+{
+	font-size:16px;
+	font: normal normal 300 16px Muli;
+	letter-spacing: 0px;
+	font-family: 'Muli', sans-serif;
+}
+.client
+{
+	width:100%;
+	height:885px;
+}
+
+.cimg
+{
+	height:150px;
+	width:150px;
+	border-radius:50%;
+	text-align:center;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:30px;
+    	opacity:1;
+	padding:10px;
+	box-shadow: 0 0 0 2px #FE8369;
+}
+
+.client p
+{
+	text-align:center;
+	font-size:20px;
+	color:#4B4B4B;
+	font: italic normal normal 30px Muli;
+	font-family: 'Muli', sans-serif;
+}
+.client h3
+{
+	text-align:center;
+	font: normal normal bold 30px Oswald;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 0.6px;
+	color: #4B4B4B;
+}
+.client h4
+{
+	text-align:center;
+	font: normal normal normal 25px Muli;
+	font-family: 'Muli', sans-serif;
+	letter-spacing: 0.54px;
+	color: #4B4B4B;
+}
+.btn
+{
+	height:62px;
+    	width:185px;
+     	font-family: 'Montserrat', sans-serif;
+    	color:white;
+    	background-color: #FE8369;
+	border: 1px;
+	box-shadow: 0px 20px 20px #50302028;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:30px;
+	font-size:18px;
+}
+.footer
+{
+	width:100%;
+	height:1021px;
+	background-color:#4B4B4B;
+}
+.footer h2
+{
+	text-align:center;
+	color:#FFFFFF;
+	font-size:40px;
+	font: normal normal bold 40px/50px Oswald;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1.2px;
+	padding-top:4%;
+}
+.footer p
+{
+	text-align:center;
+	font: normal normal 300 16px Muli;
+	font-family: 'Muli', sans-serif;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+}
+.downbox
+{
+	display:flex;
+	justify-content: center;
+	padding-top:3%;
+}
+.box1
+{
+	font: normal normal normal 16px Muli;
+	font-family: 'Muli', sans-serif;
+	letter-spacing: 0.16px;
+	color: #D4C9B6;
+	margin-left:2%;
+}
+.whitebox
+{
+	margin-top:20px;
+	padding:10px;
+	width: 290px;
+	height: 54px;
+	font: normal normal normal 22px/28px Oswald;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 0.22px;
+	color: #B7B7B7;
+	background-color:white;
+}
+.btn2
+{
+	
+	height:62px;
+    	width:245px;
+     	font-family: 'Montserrat', sans-serif;
+    	color:white;
+    	background-color: #FE8369;
+	border: 1px;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:30px;
+	font-size:24px;
+}
+.linehr
+{
+	margin-top:3%;
+	width:90%;
+	height: 0px;
+	margin-left:5%;
+	margin-right:5%;
+	border: 1px solid #FE8369;
+}
+.downfooter
+{
+	display:flex;
+	justify-content: center;
+}
+.list
+{
+	margin-top:5%;
+	margin-left:10%;
+	color:#FFFFFF;
+	font-size:18px;
+	font: normal normal bold 18px/50px Oswald;
+	letter-spacing: 0.54px;
+	font-family: 'Oswald', sans-serif;
+}
+.list li
+{
+	text-decoration:none;
+	list-style-type: none;
+	margin-top:10%;
+	font: normal normal 300 16px Muli;
+	font-family: 'Muli', sans-serif;
+	letter-spacing: 0px;
+	color: #F0E3D0;
+}
+.imgss
+{
+	margin-top:5%;
+}
+.imgs2
+{
+}
+.rret
+{
+	width: 414px;
+	height: 56px;
+	font: normal normal 300 16px Muli;
+	font-family: 'Muli', sans-serif;
+	color: #F0E3D0;
+	
+}
+.rret e1
+{
+	
+	background-color:#4B4B4B;
+	height: 56px;
+}
+.rret e2
+{
+	background-color:#FE8369;
+	width: 126px;
+	height: 56px;
+}
+.b
+{
+	float:right:
+	font: normal normal normal 16px/50px Muli;
+	font-family: 'Muli', sans-serif;
+	letter-spacing: 0.48px;
+	color: #FFFFFF;
+	background-color:#FE8369;
+	border: 1px;
+}
+
+.subscribe{
+   	height:56px;
+    	width:414px;
+    	font-size: 14px;
+    	color:white;
+    	line-height: 25px;
+    	font-family: 'Mulish', sans-serif;
+	background-color:#4B4B4B;
+}
+
+.subscribe button{
+    	margin-left: 0px;
+    	background-color: #FE8369;
+    	height:40px;
+	border:1px;
+    	font-family: 'Mulish', sans-serif;
+	color:white;
+}
+.headline{
+    	font-size: 19px;
+    	letter-spacing: 0.24px;
+    	line-height: 50px;
+    	font-family: 'Oswald', sans-serif;
+}
+.email-input{
+	margin-top:5%;
+   	display:flex;
+    	color:white;
+}
+
+.email-input input{
+    
+    	height : 40px;
+    	width:130px;
+    	border: 1px solid white;
+    	color:#F0E3D0;
+}
+
+.dpara
+{
+	text-align: center;
+	font: normal normal 300 18px/35px Muli;
+	font-family: 'Muli', sans-serif;
+	letter-spacing: 0px;
+	color: #F0E3D0;
+	opacity: 1;
+	font-size:25px;
+	margin-top:3%;
 }
